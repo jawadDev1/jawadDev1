@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @jawadDev1
-- 👀 I’m interested in App Development
+- 👀 I’m interested in Software Development
 - 🌱 I’m currently learning React Native
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me jawadali.dev1@gmail.com
