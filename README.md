@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @jawadDev1
+- 👋 Hi, I’m Jawad Ali
 - 👀 I’m interested in Software Development
 - 🌱 I’m currently learning React Native
 - 💞️ I’m looking to collaborate on ...
