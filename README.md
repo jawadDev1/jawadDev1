@@ -1,9 +1,7 @@
 - 👋 Hi, I’m Jawad Ali
 - 👀 I’m interested in Software Development
 - 🌱 I’m currently learning React Native
-- 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me jawadali.dev1@gmail.com
-- 😄 Pronouns: ...
 - ⚡ Fun fact: Computers are dumb!!!
 
 <!---
