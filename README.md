@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Jawad Ali
 - 👀 I’m interested in Software Development
-- 🌱 I’m currently learning Nextjs
+- 🌱 I’m currently learning Backend egnineering by first principles
 - 📫 How to reach me jawadali.dev1@gmail.com
 - ⚡ Fun fact: Computers are dumb!!!
 
