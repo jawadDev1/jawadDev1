@@ -1,38 +1,54 @@
-name: Generate GitHub Contribution Snake
+name: Generate Snake Game
 
-
+# Controls when the action will run
 on:
-# Run daily at 23:45 UTC; adjust as needed
-schedule:
-- cron: "60 * * * *"
-# Allow manual runs from the Actions tab
-workflow_dispatch:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
-# GitHub token needs write access to push the rendered files
-permissions:
-contents: write
+  # Run automatically every 12 hours
+  schedule:
+    - cron: "0 */12 * * *"
 
-
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-build:
-runs-on: ubuntu-latest
-steps:
-- name: Generate snake SVGs
-uses: Platane/snk@v3
-with:
-# Your GitHub username
-github_user_name: jawadDev1
-# Multiple outputs (light/dark). You can add more palettes if you want.
-outputs: |
-dist/snake.svg
-dist/snake-dark.svg?palette=github-dark
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
 
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v3
 
-- name: Publish to `output` branch
-uses: crazy-max/ghaction-github-pages@v4
-with:
-target_branch: output
-build_dir: dist
-env:
-GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # Generates the snake game from your contribution graph
+      - name: Generate Snake Game
+        uses: Platane/snk/svg-only@v3
+        with:
+          # GitHub username (replace with your actual username)
+          github_user_name: ${{ github.repository_owner }}
+
+          # Output files
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif?color_snake=#A855F7&color_dots=#161B22,#0D1117,#21262D,#30363D,#21262D
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Push the generated files to the output branch
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
