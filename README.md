@@ -42,10 +42,8 @@ console.log("Ready to build something amazing together! ✨");
 
 ## 🐍 GitHub Snake Game
 
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jawadDev1/jawadDev1/output/snake-dark.svg" />
-<img alt="github contribution snake" src="https://raw.githubusercontent.com/jawadDev1/jawadDev1/output/snake.svg" />
-</picture>
+![](https://raw.githubusercontent.com/jawadDev1/jawadDev1/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/jawadDev1/jawadDev1/output/github-contribution-grid-snake.svggh-light-mode-only)
 
 ## 🤝 Let's Connect & Collaborate!
 
