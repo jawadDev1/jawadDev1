@@ -1,7 +1,7 @@
 # 🌸 Hey! 🌸
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A855F7&center=true&vCenter=true&width=940&lines=Full+Stack+Developer+%E2%9A%A1;Building+Amazing+Web+Experiences+%F0%9F%9A%80;Code+%7C+Coffee+%7C+Anime+%F0%9F%8D%9C" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=16A34A&center=true&vCenter=true&width=940&lines=Full+Stack+Developer+%E2%9A%A1;Building+Amazing+Web+Experiences+%F0%9F%9A%80;Code+%7C+Coffee+%7C+Anime+%F0%9F%8D%9C" alt="Typing SVG" />
 </div>
 
 <div align="center">
