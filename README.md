@@ -12,7 +12,7 @@
 
 ```typescript
 const developer = {
-  name: "Software Engineer",
+  name: "Jawad Ali",
   location: "Coding Dimension 🌍",
   currentFocus: "Building epic web applications",
   hobbies: ["Coding", "Anime", "Gaming", "Problem Solving"],
