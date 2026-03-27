@@ -31,10 +31,12 @@ console.log("Ready to build something amazing together! ✨");
 </div>
 
 ## 📊 Battle Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jawadDev1)
 
-<div align="center">
+
+<!-- <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=jawadDev1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7" alt="GitHub Stats" />
-</div>
+</div> -->
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jawadDev1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7" alt="Top Languages" />
